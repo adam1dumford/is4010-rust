@@ -4,7 +4,6 @@ fn main() {
     println!("Student management system");
 
     // Once you have implemented all methods in student.rs, uncomment this block:
-    /*
     use student::{CourseGrade, Grade, Student, StudentDatabase};
 
     let mut db = StudentDatabase::new();
@@ -28,5 +27,4 @@ fn main() {
 
     db.add_student(alice).unwrap();
     println!("Students in database: {}", db.student_count());
-    */
 }
